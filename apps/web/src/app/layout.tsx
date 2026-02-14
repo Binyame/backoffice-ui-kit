@@ -5,6 +5,11 @@ import './globals.css';
 export const metadata: Metadata = {
   title: 'BackOffice - Admin Dashboard',
   description: 'Portfolio-grade BackOffice UI Kit demo application',
+  icons: {
+    icon: '/favicon.svg',
+    shortcut: '/favicon.svg',
+    apple: '/favicon.svg',
+  },
 };
 
 export default function RootLayout({
