@@ -1,0 +1,27 @@
+{
+  "name": "backoffice-kit",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portfolio-grade BackOffice UI Kit monorepo",
+  "scripts": {
+    "dev": "pnpm --parallel --stream run dev",
+    "build": "pnpm --filter shared build && pnpm --filter ui build && pnpm --parallel --stream --filter web --filter api run build",
+    "lint": "pnpm --parallel run lint",
+    "clean": "pnpm --parallel run clean && rm -rf node_modules"
+  },
+  "keywords": [
+    "backoffice",
+    "ui-kit",
+    "monorepo",
+    "react",
+    "nextjs",
+    "nestjs"
+  ],
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}

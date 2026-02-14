@@ -1,0 +1,95 @@
+.tableContainer {
+  width: 100%;
+  overflow-x: auto;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  background: white;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.875rem;
+}
+
+.headerCell {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  font-weight: 600;
+  color: #374151;
+  background: #f9fafb;
+  border-bottom: 1px solid #e5e7eb;
+  white-space: nowrap;
+}
+
+.actionsHeader {
+  padding: 0.75rem 1rem;
+  text-align: right;
+  font-weight: 600;
+  color: #374151;
+  background: #f9fafb;
+  border-bottom: 1px solid #e5e7eb;
+  width: 200px;
+}
+
+.row {
+  border-bottom: 1px solid #e5e7eb;
+  transition: background-color 0.15s;
+}
+
+.row:last-child {
+  border-bottom: none;
+}
+
+.row:hover:not(.editing) {
+  background: #f9fafb;
+}
+
+.row.editing {
+  background: #fffbeb;
+}
+
+.cell {
+  padding: 0.75rem 1rem;
+  color: #1f2937;
+  vertical-align: top;
+}
+
+.editCell {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.editCell input,
+.editCell select {
+  font-size: 0.875rem;
+}
+
+.errorText {
+  font-size: 0.75rem;
+  color: #dc2626;
+}
+
+.actionsCell {
+  padding: 0.75rem 1rem;
+  text-align: right;
+  vertical-align: top;
+}
+
+.rowActions,
+.editActions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
+
+.loadingCell {
+  padding: 3rem 1rem;
+  text-align: center;
+  color: #6b7280;
+}
+
+.emptyContainer {
+  padding: 2rem;
+}

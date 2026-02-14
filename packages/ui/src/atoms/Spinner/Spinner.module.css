@@ -1,0 +1,60 @@
+.spinner {
+  display: inline-block;
+  border-radius: 50%;
+  border-width: 2px;
+  border-style: solid;
+  border-right-color: transparent;
+  animation: spin 0.6s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Sizes */
+.size-small {
+  width: 1rem;
+  height: 1rem;
+}
+
+.size-medium {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.size-large {
+  width: 2rem;
+  height: 2rem;
+  border-width: 3px;
+}
+
+/* Variants */
+.variant-primary {
+  border-color: #0066cc;
+  border-right-color: transparent;
+}
+
+.variant-white {
+  border-color: white;
+  border-right-color: transparent;
+}
+
+.variant-gray {
+  border-color: #9ca3af;
+  border-right-color: transparent;
+}
+
+/* Screen reader only */
+.visuallyHidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}

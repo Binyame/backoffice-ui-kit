@@ -1,0 +1,96 @@
+.container {
+  background: white;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  overflow: hidden;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.thead {
+  background: #f9fafb;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.th {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #6b7280;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+}
+
+.tbody tr {
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.tbody tr:last-child {
+  border-bottom: none;
+}
+
+.tbody tr:hover {
+  background: #f9fafb;
+}
+
+.td {
+  padding: 1rem;
+  font-size: 0.9375rem;
+  color: #1f2937;
+}
+
+.name {
+  font-weight: 500;
+}
+
+.email {
+  color: #6b7280;
+}
+
+.percentage {
+  font-weight: 600;
+  color: #0066cc;
+}
+
+.role {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  background: #eff6ff;
+  color: #0066cc;
+  border-radius: 9999px;
+  font-size: 0.8125rem;
+  font-weight: 500;
+}
+
+.date {
+  color: #6b7280;
+  font-size: 0.875rem;
+}
+
+.actions {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: flex-end;
+}
+
+.emptyState {
+  padding: 3rem 1rem;
+  text-align: center;
+  color: #6b7280;
+}
+
+.emptyStateTitle {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 0.5rem;
+}
+
+.emptyStateDescription {
+  font-size: 0.9375rem;
+  margin-bottom: 1.5rem;
+}
