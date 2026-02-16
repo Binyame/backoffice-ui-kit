@@ -1,10 +1,61 @@
 # BackOffice UI Kit
 
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.3-blue?logo=typescript)](https://www.typescriptlang.org/)
+[![Next.js](https://img.shields.io/badge/Next.js-14-black?logo=next.js)](https://nextjs.org/)
+[![NestJS](https://img.shields.io/badge/NestJS-10-E0234E?logo=nestjs)](https://nestjs.com/)
+[![React](https://img.shields.io/badge/React-18-61DAFB?logo=react)](https://reactjs.org/)
+[![Storybook](https://img.shields.io/badge/Storybook-7-FF4785?logo=storybook)](https://storybook.js.org/)
+[![pnpm](https://img.shields.io/badge/pnpm-8-F69220?logo=pnpm)](https://pnpm.io/)
+[![AWS](https://img.shields.io/badge/AWS-CDK-FF9900?logo=amazon-aws)](https://aws.amazon.com/cdk/)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+
 Portfolio-grade, business-ready BackOffice UI Kit monorepo built with React, TypeScript, Next.js, and NestJS.
+
+> 🚀 **Live Demo:** [Storybook Component Library](http://localhost:6006) | [Demo Application](http://localhost:3002)
+
+## 📋 Table of Contents
+
+- [Screenshots](#-screenshots)
+- [Why This Project?](#-why-this-project)
+- [Project Structure](#project-structure)
+- [Tech Stack](#tech-stack)
+- [Getting Started](#getting-started)
+- [Packages](#packages)
+- [Features](#features)
+- [Quick Start](#quick-start)
+- [Deployment](#deployment-to-aws)
+- [Documentation](#documentation)
+- [License](#license)
+
+## 🎯 Why This Project?
+
+This project showcases professional-level skills in:
+
+- **Modern Architecture**: Monorepo setup with multiple interconnected packages
+- **Design Systems**: Building reusable component libraries with Atomic Design
+- **Full-Stack Development**: Seamless integration between frontend and backend
+- **TypeScript Excellence**: Shared types ensure type safety across the entire stack
+- **Developer Experience**: Storybook for rapid component development and documentation
+- **Production Ready**: AWS infrastructure with Docker, CI/CD, and best practices
+- **Code Quality**: Strict TypeScript, validation, WCAG accessibility standards
+
+Perfect for demonstrating expertise to potential employers or as a foundation for real-world projects.
+
+## 📸 Screenshots
+
+### Component Library (Storybook)
+
+![Storybook Components](https://via.placeholder.com/800x400/3b82f6/ffffff?text=Add+Storybook+Screenshot)
+
+### Demo Application
+
+![Owners Management](https://via.placeholder.com/800x400/10b981/ffffff?text=Add+Demo+App+Screenshot)
+
+---
 
 ## Project Structure
 
-```
+```text
 backoffice-kit/
 ├── apps/
 │   ├── web/          # Next.js demo app (App Router)
@@ -141,8 +192,8 @@ API runs at [http://localhost:3001](http://localhost:3001)
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
-cd backoffice
+git clone https://github.com/Binyame/backoffice-ui-kit.git
+cd backoffice-ui-kit
 
 # Install dependencies
 pnpm install
