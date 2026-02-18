@@ -43,13 +43,13 @@ Perfect for demonstrating expertise to potential employers or as a foundation fo
 
 ## 📸 Screenshots
 
-### Component Library (Storybook)
+### Demo Application — Owners Management
 
-![Storybook Components](https://via.placeholder.com/800x400/3b82f6/ffffff?text=Add+Storybook+Screenshot)
+![Owners Management](docs/screenshots/demo-app.svg)
 
-### Demo Application
+### Component Library — Storybook
 
-![Owners Management](https://via.placeholder.com/800x400/10b981/ffffff?text=Add+Demo+App+Screenshot)
+![Storybook Components](docs/screenshots/storybook.svg)
 
 ---
 
